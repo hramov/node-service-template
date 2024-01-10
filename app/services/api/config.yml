@@ -1,0 +1,15 @@
+app:
+  name: 'fastify-wrapper'
+log:
+  level: 'debug'
+api:
+  port: 3000
+  read_timeout: 10s
+  write_timeout: 10s
+db:
+  postgres:
+    host: localhost
+    port: 5432
+    user: postgres
+    password: postgres
+    database: postgres
